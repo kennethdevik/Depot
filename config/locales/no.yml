@@ -1,0 +1,43 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+"no":
+  number:
+    currency:
+      format:
+        unit:      "Kr"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format:    "%n%u"
+
+  layouts:
+    application:
+      title:       "Pragmatikernes bokhandel"
+      home:        "Hjem"
+      questions:   "Spørsmål"
+      news:        "Nyheter"
+      contact:     "Kontakt"
+
+  carts:
+    cart:
+      title:       "Handlekurv"
+      empty:       "Tøm handlekurven"
+      checkout:    "Til kassen"
+
+  store:
+    index:
+      title_html:  "Din bokliste"
+      add_html:    "Kjøp"
+
+  orders:
+    new:
+      legend:       "Vennligst oppgi kontaktinformasjon"
+    form:
+      name:         "Navn"
+      address_html: "Adresse"
+      email:        "E-post"
+      pay_type:     "Betalingstype"
+      pay_prompt_html: "Velg betalingstype"
+      submit:       "Bekreft handelen"
+
+  thanks:          "Takk for handelen"
